@@ -7,17 +7,6 @@
  *
  */
 
-class Node
-{
-    int key;
-    Node left, right;
- 
-    public Node(int item)
-    {
-        key = item;
-        left = right = null;
-    }
-}
 
 
 public class SimpleBinaryTree {
@@ -76,7 +65,7 @@ public class SimpleBinaryTree {
            /   \
           null null
          */
-       
+       System.out.println(String.valueOf(tree));
        
 	}
 
