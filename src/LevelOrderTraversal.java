@@ -51,7 +51,13 @@ public class LevelOrderTraversal {
 	        tree_level.root.right = new Node(3);
 	        tree_level.root.left.left = new Node(4);
 	        tree_level.root.left.right = new Node(5);
-	 
+	        
+	        /*
+	         * 				1
+	         * 			2		3
+	         * 		4		5
+	         * 
+	         */
 	        System.out.println("Level order traversal of binary tree is - ");
 	        tree_level.printLevelOrder();
 	}

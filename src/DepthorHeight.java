@@ -43,6 +43,14 @@ public class DepthorHeight {
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
+        
+      /*
+       * 				1
+       *   			2		3
+       *   		4
+       *   			5
+       */
+        			
   
         System.out.println("Height of tree is : " + 
                                       tree.maxDepth(tree.root));
