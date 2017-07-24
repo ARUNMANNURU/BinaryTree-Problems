@@ -17,6 +17,7 @@ public class SimpleBinaryTree {
 	
 	 // Root of Binary Tree
     static Node root;
+    static Node left,right;
  
     // Constructors
     SimpleBinaryTree(int key)
@@ -65,8 +66,15 @@ public class SimpleBinaryTree {
            /   \
           null null
          */
-       System.out.println(String.valueOf(tree));
-       
+       pritnTree(root);
+	}
+	public static void pritnTree(Node root){
+		Node n = root;
+		Node l = left, r = right;
+		while(n != null){
+			System.out.println(n.key);
+			n = n.left;
+		}
 	}
 
 }
