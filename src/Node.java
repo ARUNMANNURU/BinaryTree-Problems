@@ -18,5 +18,7 @@ public class Node {
 		 this.key = item;
 	        left = right = null;
 	}
-
+	public boolean isLeaf() {
+	      return (left==null && right==null);
+	}
 }
